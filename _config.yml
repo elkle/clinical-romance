@@ -1,0 +1,6 @@
+name: Clinical Romance
+markdown: redcarpet
+pygments: true
+safe: true
+lsi: false
+pygments: true
