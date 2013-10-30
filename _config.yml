@@ -1,6 +1,8 @@
 name: Clinical Romance
-markdown: redcarpet
 pygments: true
 safe: true
 lsi: false
 pygments: true
+port: 4000
+markdown:    rdiscount
+permalink:   date
