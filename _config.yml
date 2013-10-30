@@ -6,3 +6,4 @@ pygments: true
 port: 4000
 markdown:    rdiscount
 permalink:   date
+baseurl: /clinical-romance
