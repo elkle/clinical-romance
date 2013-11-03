@@ -13,8 +13,9 @@
 html, body { height: 100%; }
 
 body {
+  color: #666666;
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px Helvetica, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -25,9 +26,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #666666; }
+a:hover   { color: #CCCCCC; }
+a:visited { color: #666666; }
 
 /*****************************************************************************/
 /*
@@ -70,16 +71,33 @@ ul.posts span {
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
 
+
+.site .header h2.title {
+/*  display: inline-block;
+*/  
+margin-top: -.4em;
+margin-bottom: 2em;
+}
+
+
+
 .site .header h1.title a {
-  color: #a00;
+  color: #FF0000;
+  font-size: 140% 
 }
 
 .site .header h1.title a:hover {
-  color: #000;
+  color: #000; 
 }
+
+.site .header h2.title a {
+  color: #000000;
+  font-size: 90%
+}
+
 
 .site .header a.extra {
   color: #aaa;
@@ -87,7 +105,7 @@ ul.posts span {
 }
 
 .site .header a.extra:hover {
-  color: #000;
+  color: #666666;
 }
 
 .site .meta {
@@ -96,8 +114,8 @@ ul.posts span {
 
 .site .footer {
   font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
+  color: #666666;
+  border-top: 2px solid #eee;
   margin-top: 2em;
   overflow: hidden;
 }
